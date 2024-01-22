@@ -1,21 +1,26 @@
 # Project Title
-MyTill
+Walton Happy Travel
 
 ## Description
-This is a simple Java Swing application where an user can add product to a cart and check them out. The project is still under development.
+This is a website project where an user can select a range of coach trips and excursion and pay for them. The project is still under development.
 
-## Features
-- "Checkout" functionality (Note: no real monetary transactions involved).
-- Manager functionalities: view all orders and the related stats.
+## Features / Functionalities
+- As a customer:
+    - Email confirmation when finalizing an order
+    - SMS confirmation when finalizing an order
+    - Stripe payment (No money involved)
+    - Adding or removing a debit card
+    - Order History
 
-## Getting Started
+- As a Manager:
 
-### Dependencies
-- Libraries used: ucanaccess-2.0.9.3, commons-lang-2.6, commons-logging-1.1.1, hsqldb, jackcess-2.0.8
-- The project is using Java Development Kit (JDK) version 16
+    - Creating, editing or deleting destinations, excursions and trips.
+    - Booking management
+    - Report management and creation
 
-### Installing and Running
-- Simply download/clone the repository, then right click on the project and select "Run". You can also run the .jar file in the dist folder.
+
+### Programming language used
+- The project has been developed using C# and Asp.NET Core.
 
 ## License
 This project is not licensed for reuse, modification, or distribution.
@@ -24,4 +29,18 @@ This project is not licensed for reuse, modification, or distribution.
 - Full name: Manuele Tacchetti
 - Email: manuele.tacchetti@gmail.com
 
-![Home page](Screenshots/FindTrips.jpg)
+![Find Trips](Screenshots/FindTrips.jpg)
+
+![Search Result](Screenshots/SearchResults.jpg)
+
+![Journey Details](Screenshots/JourneyDetails.jpg)
+
+![Excursion Details](Screenshots/ExcursionDetails.jpg)
+
+![Card Payment](Screenshots/CardPayment.jpg)
+
+![Email confirmation](Screenshots/EmailConfirmation.jpg)
+
+![SMS confirmation](Screenshots/SMS_Confirmation_Twilio.jpg)
+
+
